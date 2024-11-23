@@ -10,7 +10,7 @@
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"@",
+      "value":"!",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
@@ -21,13 +21,13 @@
     }, "TELECHARGER_AUTO_STATUS":
     {
       "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
     ,
     "NOM_BOT" : {
        
-      "description":"Un nom pour votre bot",
+      "description":"JORES",
       "value":"HACKING-MD",
       "required":false
 
@@ -70,7 +70,7 @@
 	  },
     "SESSION_ID":
     {
-      "description":"veuillez renseigner votre id de session",   
+      "description":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS0JIS1RkSktNNFBxbXZTZUpRTnVyWFJ5ZmhqcFZKRFI1c1RORnZudnVsRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicG91Q3Z1bzNIa2l3ajByTk4xUE5wakJFMnFwTWxKckhtZmRNam81L3hVUT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrRTEyRm1yeGZ6TnJ0eWZRSGc3VEo2Z0RMR0Rhc1FGWUphQThQQk5JRm1RPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFLzZpM1Q3QnJzMWplemh3OWlhekV3OThiSWxUZjlRRkoxSnBiVVZGY0hVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IktOeU1qc1cxalUwZXcrTkJSMUwrT3JQQ01BZjhxMWVsbkZoTTg1RGM4MHc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNYVXNGR3FiRkVZWm4yQ1RHYW1Hd08ySU85REdSZ0IwdWd2Q0xPTWRTbWc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRVBNamdWMnVzL2Q3R050cEhNZUljR1o2c2ExV2RIME5RaEh6cUVDTlcxQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWlQ3RUxFZnk2WDR4YnJDL1dVMW4wOVR3SFlETlZ4S2ZJL1NOdkxSL0REOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImF2YUt1dFNEYUlNZFY0VkJiM0hXb1pXU2VERlIvVlozeHhNV2JiK0RGbGxkVmo0QTJkcGFaVVFWbzRTNW9rb25CZUZaSy8yNStVNkJXdXMxZEhiSGhRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTMsImFkdlNlY3JldEtleSI6ImN6S29nQkt2UnZjZG9tbzYwZ1ZDOEhONFJRblFtTHlSeGpNVFFRb3VZbEU9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6ImJndnB3aVlTUmVXWTlCMmtHOElaQmciLCJwaG9uZUlkIjoiNDRmMWMwYTEtNWEzNy00ZGI0LWE5OWEtZjdhOGE0ZTVlMDMxIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkYzZHlFYkFNYy92ZU5sU1ppMFlKZUc1dzBRUT0ifSwicmVnaXN0ZXJlZCI6ZmFsc2UsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYmZ1TkJZYzZrTTZWUTJubWt2NHNodjg1M0pjPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDUEwxL0lvRUVOQ1NoN29HR0JBZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiSVJuSnVDVC9aUUZCS0ZnUk0xcjRNcWZlU1FQZFVLaXE0SXlnTTFrbU94ND0iLCJhY2NvdW50U2lnbmF0dXJlIjoiekhFMk5QenNFcUNrdjRuZlg5WWpYVVhqZ1JlUVdSLzZUNVZSQ0xUWWQxcCtVLzVkL0I2Q2U3YW9sc3R0dmwrNnVVZjFRWnVobmVMU0ZGV09sRk5tZ3c9PSIsImRldmljZVNpZ25hdHVyZSI6InNXemhrbFY5WWwzaUkvREpKeVdRaEFLZUtXTlNLT1gxdG92a3FCL2oyVWVaR3N6NmgreWNKSG81cW1OUVorTHlKUXBKSjVyUGwvMi85SmdZSHJQc2hBPT0ifSwibWUiOnsiaWQiOiIyMzc2NTg3NzEyOTI6MTRAcy53aGF0c2FwcC5uZXQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM3NjU4NzcxMjkyOjE0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlNFWnliZ2svMlVCUVNoWUVUTmErREtuM2trRDNWQ29xdUNNb0ROWkpqc2UifX1dLCJwbGF0Zm9ybSI6ImlwaG9uZSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTczMjM2NDYyOH0=",   
       "value":"",
       "required":true
       
@@ -78,7 +78,7 @@
     "NOM_OWNER":
     {
     
-    "description": "Votre nom",
+    "description": "JORES",
     "required": false,
     "value": "Thomas"
   },
@@ -107,7 +107,7 @@
   {
     "description": "Mettez oui si vous voulez que le contenue des message en vue unique vous sois envoyez en pv",
     "required": false,
-    "value": "non"
+    "value": "oui"
   },
   "PM_CHATBOT":
   {
